@@ -14,7 +14,7 @@ trainingdata <- cbind(x,yd)
 colnames(trainingdata) <- c("x0","x1","x2","x3","x4","x5","x6","x7","Output")
 trainingdata = as.matrix(trainingdata)
 print("Treinando rede...")
-net.abalone <- neuralnet(Output~x0+x1+x2+x3+x4+x5+x6+x7,trainingdata, linear.output=TRUE,hidden=30, threshold=0.1)
+net.abalone <- neuralnet(Output~x0+x1+x2+x3+x4+x5+x6+x7,trainingdata, linear.output=FALSE,hidden=30, threshold=0.1)
 print("Rede treinada!")
 
 #------Neural network tests--------------------------------------------

@@ -1,0 +1,8 @@
+Sexo
+Masculino 1
+Feminino -1
+Indefinido 0
+
+Coeficiente de discretizacao  (2/29)-1
+0.068965517
+
